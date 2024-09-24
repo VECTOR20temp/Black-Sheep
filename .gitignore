@@ -1,0 +1,20 @@
+#node modules
+node_modules
+
+#build outpu
+dist/
+
+#logs
+logs
+*.log 
+
+#Enviroment variables
+.env 
+
+#ide files
+.vscode/
+.idea/
+
+#other temporary files
+.DS_Store
+Thumbs.db 
