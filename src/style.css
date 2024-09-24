@@ -1,0 +1,149 @@
+body{
+    background:linear-gradient(to right,red,orange);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    margin:0;
+    scroll-behavior:smooth;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.content-area{
+    width:80%;
+    margin:auto;
+}
+
+.top-section{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.top-section__image{
+    width:200px;
+    height:200px;
+    background-color:red;
+    border-radius:50%;
+    margin-right:20px;
+}
+
+#top-section__image-one{
+    width:200px;
+    height:200px;
+    background-color:#ffffff;
+    border-radius:50%;
+    margin-right:20px;
+}
+
+.text-area{
+    flex-grow:1;
+    background:linear-gradient(navy,blue);
+    padding:30px;
+    margin:5px;
+    border:3px solid black;
+}
+
+#text-area__heading-one{
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:2px 2px #000000;
+    font-size:50px;
+    font-style:initial;
+    color:#EEC089;
+}
+
+.text-area__para{
+    margin:5px 0 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#EEC089;
+}
+
+.bottom-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+}
+
+.lang{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+
+#dropDown{
+    padding:10px;
+    margin:5px 5px;
+    background-color: #317B22;
+    color:#ffffff;
+    border:1px solid gold;
+    border-radius:5px;
+}
+
+option{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#response-area{
+    flex-grow:1;
+    margin-left:20px;
+    border:3px solid yellow;
+    background:#623CEA;
+    width:150px;
+    height:150px;
+    padding:10px;
+    box-shadow:2px 2px 3px black;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.animate-fade-in{
+    animation:fade-in 0.5s ease-in-out;
+}
+
+#response-text{
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-style:oblique;
+    text-shadow:2px 3px 3px black;
+    text-align:center;
+    color:white;
+}
+
+#bottom-section__button{
+    height:150px;
+    width:150px;
+    padding:30px;
+    margin:10px;
+    border:10px solid white;
+    border-radius:50%;
+    background:linear-gradient(brown,red);
+    color:white;
+    font-size:20px;
+    margin:10px;
+}
+
+#bottom-section__button:hover{
+    cursor:pointer;
+    height:155px;
+    width:155px;
+}
+
+.third-section-class{
+    background:#228CDB;
+    width:100px;
+    height:100px;
+}
