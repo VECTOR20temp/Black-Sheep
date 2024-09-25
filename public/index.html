@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black sheep 🐑</title>
+    <link rel="stylesheet" href="../src/style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <div class="content-area">
+        <div class="top-section">
+            <div class="top-section__image">
+                <img src="/src/Assets/blackSheepMainLogo.jpg" alt="Black sheep project main logo" id="top-section__image-one"/>
+            </div>
+            <div class="text-area">
+                <h1 id="text-area__heading-one">Black sheep</h1>
+                <p class="text-area__para">&nbsp;&nbsp;&nbsp;Welcome to Black sheep, the sassy little project with a mouth!
+                feeling too peaceful? Need a dash of chaos? Just click a button, and 
+                Black sheep will deliver a spicy insult straight to your face. Whether 
+                you want to roast yourself or your friends, Black sheep's got your back 
+                ...or may be it's stabbing it. Each click will generate a hand-crafted, 
+                insult so gloriously snarky, even Shakespeare would blush.</p>
+        
+                <p class="text-area__para">&nbsp;&nbsp;&nbsp;Don't worry the insults are'nt too mean... probably, but they're 
+                enough to make you question your life choices. Just the right amount of  
+                mockery to keep you entertained without needing you therapy afterwards. 
+                It's the perfect way to add a sprinkle of humor to your day, or, you know 
+                ruin someone elses.</p>
+            </div>
+        </div>
+    
+        <div class="bottom-section">
+            <div class="lang">
+                <select id="dropDown">
+                    <option value="" disabled selected>Language</option>
+                    <option value="cn">Chinese</option>
+                    <option value="de">German</option>
+                    <option value="el">Russian</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                </select>
+            </div>
+            <button id="bottom-section__button">B-aa</button>
+            
+            <div id="response-area">
+                <span id="response-text"></span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../src/index.js"></script>
+
+</body>
+</html>
